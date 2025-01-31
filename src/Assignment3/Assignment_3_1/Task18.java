@@ -34,9 +34,7 @@ class Person implements RepkaItem {
         return namePadezh;
     }
 
-    public void setNamePadezh(String namePadezh) {
-        this.namePadezh = namePadezh;
-    }
+
 
     public void pull(Person person) {
         System.out.println(this.name + " for " + person.getNamePadezh());
